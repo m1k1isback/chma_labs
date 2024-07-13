@@ -25,9 +25,8 @@ dt2 = t3 - t2
 print(f"Time taken for numpy operations: {dt:.6f} seconds")
 print(f"Time taken for Python operations: {dt2:.6f} seconds\n")
 
-print(f"mathematical expectation for vector x: {np.mean(x)}")
-print(f"mathematical expectation for vector y: {np.mean(y)}\n")
-
+print(f"Mathematical expectation for vector x: {np.mean(x)}")
+print(f"Mathematical expectation for vector y: {np.mean(y)}\n")
 
 print(f"Variance for vector x: {np.var(x)}")
 print(f"Variance for vector y: {np.var(y)}")
